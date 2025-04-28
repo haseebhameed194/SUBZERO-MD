@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~hwwkDSIS#7dkvMN6c1ymclvl3yV5RL4U91x3tfjpCcpMIJy6DCbw",  // Your bot's session ID (keep it secure)
     PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
@@ -20,22 +20,22 @@ module.exports = {
     DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
-    AUTO_REPLY: process.env.AUTO_REPLY || "false",              // Enable/disable auto-reply
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
+    AUTO_REPLY: process.env.AUTO_REPLY || "true",              // Enable/disable auto-reply
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",// Reply to status updates?
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY SUBZERO 🤍*",  // Status reply message
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",          // Mark messages as read automatically?
 
     // ===== REACTION & STICKER SETTINGS =====
-    AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
+    AUTO_REACT: process.env.AUTO_REACT || "true",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
     STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",     // Sticker pack name
-    AUTO_STICKER: process.env.AUTO_STICKER || "false",          // Auto-send stickers?
+    AUTO_STICKER: process.env.AUTO_STICKER || "true",          // Auto-send stickers?
 
     // ===== MEDIA & AUTOMATION =====
     AUTO_VOICE: process.env.AUTO_VOICE || "false",              // Auto-send voice messages?
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",            // Show typing indicator?
     ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/zv76KffW/IMG-20250115-WA0020.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
